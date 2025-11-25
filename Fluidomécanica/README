@@ -1,48 +1,49 @@
-# 🌊 Ingeniería Fluidomecánica y Máquinas Hidráulicas
+# 🌊 INGENIERÍA FLUIDOMECÁNICA Y MÁQUINAS HIDRÁULICAS
 
-![Estado](https://img.shields.io/badge/Estado-Finalizado-success)
-![Universidad](https://img.shields.io/badge/Institución-UAL-blue)
-![Tech](https://img.shields.io/badge/Herramientas-Overleaf%20%7C%20Python%20%7C%20Excel-orange)
+![Estado](https://img.shields.io/badge/ESTADO-FINALIZADO-success?style=for-the-badge)
+![Tech](https://img.shields.io/badge/DOCS-OVERLEAF%20%7C%20LATEX-black?style=for-the-badge)
+![Data](https://img.shields.io/badge/DATA-PYTHON%20%7C%20EXCEL-orange?style=for-the-badge)
 
-Repositorio técnico que compila los análisis experimentales y memorias de cálculo desarrollados para la asignatura de Ingeniería Fluidomecánica en la **Universidad de Almería**.
+Colección de memorias técnicas y análisis experimentales avanzados desarrollados en la **Universidad de Almería**.
 
-El objetivo de este portafolio es demostrar la competencia en el **análisis de sistemas de fluidos**, la **caracterización de turbomáquinas** y la **aerodinámica experimental**, documentando los resultados con rigor científico mediante LaTeX.
+El repositorio se centra estrictamente en la **caracterización matemática** y el **análisis de rendimiento** de sistemas hidráulicos y aerodinámicos, priorizando el rigor en el tratamiento de datos y la presentación profesional de resultados.
 
-## 📂 Contenido del Repositorio
+---
 
-A continuación se detallan los ensayos realizados. Cada carpeta contiene la memoria técnica completa y los datos brutos del ensayo.
+## 📂 CONTENIDO TÉCNICO DEL PORTAFOLIO
 
-| Carpeta | Temática Técnica | Conceptos Clave Analizados |
-| :--- | :--- | :--- |
-| **[`/01-Practica-1...`](./01-Practica-1-Banco-de-bombas-serie-paralelo)** | **Acoplamiento de Bombas:** Análisis de curvas características en configuraciones individuales, serie y paralelo. | Punto de funcionamiento, altura manométrica ($H$), caudal ($Q$) y leyes de asociación de bombas. |
-| **[`/02-Practica-2...`](./02-Practica-2-Bombas-centrifugas)** | **Curvas Características:** Ensayo completo de una bomba centrífuga unitaria. | Rendimiento global ($\eta$), Potencia al freno y curvas de iso-rendimiento. |
-| **[`/03-Practica-3...`](./03-Practica-3-Turbina-Pelton)** | **Turbinas de Acción:** Estudio de regulación y eficiencia en una turbina Pelton. | Triángulo de velocidades, regulación por inyector (aguja), par motor vs velocidad de giro. |
-| **[`/04-Practica-4...`](./04-Practica-4-Turbina-Francis)** | **Turbinas de Reacción:** Caracterización de una turbina Francis y su tubo de aspiración. | Distribuidor, grado de reacción, triángulo de salida y cavitación. |
-| **[`/05-Practica-5...`](./05-Practica-5-Tunel-de-viento)** | **Aerodinámica Experimental:** Ensayo de cuerpos sumergidos en flujo de aire. | Capa límite, Coeficiente de arrastre ($C_d$), Coeficiente de sustentación ($C_l$) y número de Reynolds. |
+| Acceso al Documento | Análisis Técnico Realizado |
+| :--- | :--- |
+| **[`/01-Practica-1...`](./01-Practica-1-Banco-de-bombas-serie-paralelo)** | **🔴 SISTEMAS DE BOMBEO**<br>Estudio comparativo de curvas $H-Q$ en configuraciones: Individual, Serie y Paralelo. |
+| **[`/02-Practica-2...`](./02-Practica-2-Bombas-centrifugas)** | **🟠 BOMBAS CENTRÍFUGAS**<br>Análisis de Rendimiento Global ($\eta$), Potencia al Freno y Altura Manométrica. |
+| **[`/03-Practica-3...`](./03-Practica-3-Turbina-Pelton)** | **🔵 TURBINAS DE ACCIÓN (PELTON)**<br>Análisis de triángulos de velocidad y regulación de potencia mediante inyector. |
+| **[`/04-Practica-4...`](./04-Practica-4-Turbina-Francis)** | **🟣 TURBINAS DE REACCIÓN (FRANCIS)**<br>Estudio del grado de reacción, distribuidor y eficiencia del tubo de aspiración. |
+| **[`/05-Practica-5...`](./05-Practica-5-Tunel-de-viento)** | **💨 AERODINÁMICA EXTERNA**<br>Cálculo de coeficientes de Arrastre ($C_d$) y Sustentación ($C_l$) en túnel de viento. |
 
-## 🛠️ Metodología de Ingeniería
+---
 
-Para cada una de estas prácticas se ha seguido el siguiente flujo de trabajo profesional:
+## 🛠️ COMPETENCIAS Y METODOLOGÍA
 
-1.  **Ensayo en Banco:** Toma de datos de presión (manómetros diferenciales), caudal (Venturi/Rotámetros), par torsor y velocidad angular (tacómetros).
-2.  **Procesamiento de Datos:**
-    * Cálculo de incertidumbres experimentales.
-    * Ajuste de curvas mediante regresión polinómica (Python/Excel).
-    * Comparativa: **Datos Teóricos vs. Datos Experimentales**.
-3.  **Documentación (Overleaf):** Redacción de informes técnicos estructurados bajo normativa académica, incluyendo bibliografía y notación científica estandarizada ($SI$).
+### 1. CÁLCULO INGENIERIL
+Procesamiento de variables físicas complejas y **ajuste de curvas mediante regresión polinómica** para determinar puntos de funcionamiento óptimos.
 
-## 📊 Ejemplo de Resultados: Curvas Características
+### 2. ANÁLISIS CRÍTICO
+Comparativa directa de **Resultados Experimentales vs. Curvas Teóricas del Fabricante**, identificando desviaciones y factores de pérdida.
 
-> *Gráfica representativa obtenida durante el ensayo de Bombas Centrífugas, mostrando la relación entre Altura, Rendimiento y Potencia.*
+### 3. DOCUMENTACIÓN PROFESIONAL
+Redacción técnica ejecutada en **Overleaf (LaTeX)**, garantizando:
+* Tipografía matemática estándar.
+* Gestión bibliográfica automática.
+* Formato bajo normativa académica internacional.
 
-![Curvas H-Q](https://via.placeholder.com/600x350?text=Sube+tu+Grafica+H-Q+Aqui)
-*(Recomiendo subir aquí una captura de una de las gráficas de tus informes)*
+---
 
-## 📄 Licencia
+## 📊 REPRESENTACIÓN DE RESULTADOS
 
-Este material es propiedad intelectual del autor y se presenta con fines de portafolio profesional.
-Desarrollado en la **Escuela Superior de Ingeniería - UAL**.
+> *Ejemplo: Caracterización de turbomáquina (Relación Altura / Rendimiento / Potencia)*
+
+![Grafica Resultados](https://via.placeholder.com/600x300?text=GRÁFICA+CURVAS+CARACTERÍSTICAS)
 
 ---
 **Autor:** [Tu Nombre]
-*Ingeniero Mecánico*
+*Ingeniero Mecánico - UAL*
