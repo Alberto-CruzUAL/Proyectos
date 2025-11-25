@@ -28,7 +28,5 @@ Redacción técnica ejecutada en **Overleaf (LaTeX)**, garantizando:
 ---
 
 
-![Grafica Resultados](https://via.placeholder.com/600x300?text=GRÁFICA+CURVAS+CARACTERÍSTICAS)
-
 ---
-**Autor:**Alberto Cruz Garcia - UAL*
+Alberto Cruz Garcia - UAL*
