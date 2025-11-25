@@ -26,7 +26,7 @@ La elección de **LaTeX** sobre procesadores de texto convencionales refleja mi 
 
 *(Haz clic en el enlace para ver el documento PDF directamente en el navegador)*
 
-### 1. [Ensayo Turbina Pelton (Ver PDF)](./Fluidomecánica/Ensayo_Turbina_Pelton.pdf)
+### 1. [Ensayo Turbina Pelton (Ver PDF)](./Fluidomecánica/turbina_Pelton.pdf)
 
 
 
