@@ -26,11 +26,9 @@ La elección de **LaTeX** sobre procesadores de texto convencionales refleja mi 
 
 *(Haz clic en el enlace para ver el documento PDF directamente en el navegador)*
 
-### 1. [Análisis de Golpe de Ariete en Tuberías (Ver PDF)](./01-Mecanica-Fluidos/Nombre-Del-Archivo.pdf)
-> Estudio del fenómeno transitorio en sistemas de bombeo. Incluye gráficos generados con Python/Matplotlib e integrados en el documento.
+### 1. [Ensayo Turbina Pelton (Ver PDF)](./Fluidomecánica/Ensayo_Turbina_Pelton.pdf)
 
-### 2. [Estudio de Tracción Uniaxial (Ver PDF)](./02-Resistencia-Materiales/Nombre-Del-Archivo.pdf)
-> Informe experimental comparando el módulo de Young teórico vs. experimental.
+
 
 ---
 **Autor:** [Tu Nombre]
