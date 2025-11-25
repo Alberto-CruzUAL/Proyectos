@@ -1,0 +1,48 @@
+# 💧 Mecánica de Fluidos y Máquinas Hidráulicas
+
+![Status](https://img.shields.io/badge/Documentación-Finalizada-success)
+![Tools](https://img.shields.io/badge/Herramientas-Overleaf%20%7C%20Excel%20%7C%20Python-blue)
+
+Colección de informes técnicos y análisis experimentales desarrollados en el laboratorio de hidráulica de la **Universidad de Almería**.
+
+Esta sección se centra en el estudio del comportamiento de fluidos incompresibles, el análisis dimensional y la caracterización de equipos de bombeo y generación de energía.
+
+## 📄 Informes Disponibles
+
+| Documento (PDF) | Descripción del Ensayo | Conceptos Clave |
+| :--- | :--- | :--- |
+| **[1. Curvas Características - Bomba Centrífuga](./Nombre-De-Tu-Archivo.pdf)** | Obtención experimental de las curvas $H-Q$, Rendimiento ($\eta$) y Potencia. Análisis de cavitación y NPSH. | Triángulo de velocidades, Leyes de semejanza, ISO 9906. |
+| **[2. Pérdidas de Carga en Tuberías](./Nombre-De-Tu-Archivo-2.pdf)** | Estudio de pérdidas primarias (fricción) y secundarias (accesorios) en diferentes diámetros y rugosidades. | Diagrama de Moody, Ecuación de Darcy-Weisbach, Número de Reynolds. |
+| **[3. Banco de Turbina Pelton/Francis](./Nombre-De-Tu-Archivo-3.pdf)** | Análisis de una turbina de acción/reacción. Regulación de caudal y par motor. | Rendimiento hidráulico vs. mecánico, inyectores, rodete. |
+
+*(Asegúrate de actualizar los enlaces `./Nombre...` con los nombres reales de tus PDFs)*
+
+## 📊 Metodología y Herramientas
+
+Para la elaboración de estos documentos se ha seguido un flujo de trabajo de ingeniería profesional:
+
+1.  **Adquisición de Datos:** Toma de lecturas en manómetros diferenciales, caudalímetros (Venturi/Rotámetro) y tacómetros digitales.
+2.  **Procesamiento:**
+    * Cálculo de errores e incertidumbres.
+    * Regresión lineal y polinómica para ajuste de curvas (usando Python/Excel).
+3.  **Redacción Técnica (LaTeX):**
+    * Uso de paquetes `siunitx` para el manejo riguroso de unidades del SI.
+    * Generación de tablas flotantes y referencias cruzadas automáticas.
+    * Bibliografía técnica gestionada con BibTeX.
+
+## 📈 Ejemplo de Resultados
+
+> **Curvas Características ($H$, $\eta$, $P$ vs $Q$):**
+> *Se demuestra la capacidad de contrastar los datos teóricos del fabricante con los datos reales obtenidos en banco de ensayo.*
+
+![Gráfica H-Q](https://via.placeholder.com/600x300?text=Inserte+aqui+grafica+Curvas+Bomba)
+*(Si tienes una captura de las gráficas de tus informes, ponla aquí, vende mucho visualmente)*
+
+## 📚 Normativa Aplicada
+
+Los ensayos se han realizado bajo directrices y tolerancias basadas en estándares como:
+* **ISO 9906:** Ensayos de aceptación de prestaciones de bombas rotodinámicas.
+* **UNE-EN IEC 60193:** Turbinas hidráulicas, bombas de acumulación y turbinas-bomba.
+
+---
+[🔙 Volver al Portafolio Principal](../README.md)
