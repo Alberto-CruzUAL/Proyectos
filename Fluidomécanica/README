@@ -1,48 +1,48 @@
-# 💧 Mecánica de Fluidos y Máquinas Hidráulicas
+# 🌊 Ingeniería Fluidomecánica y Máquinas Hidráulicas
 
-![Status](https://img.shields.io/badge/Documentación-Finalizada-success)
-![Tools](https://img.shields.io/badge/Herramientas-Overleaf%20%7C%20Excel%20%7C%20Python-blue)
+![Estado](https://img.shields.io/badge/Estado-Finalizado-success)
+![Universidad](https://img.shields.io/badge/Institución-UAL-blue)
+![Tech](https://img.shields.io/badge/Herramientas-Overleaf%20%7C%20Python%20%7C%20Excel-orange)
 
-Colección de informes técnicos y análisis experimentales desarrollados en el laboratorio de hidráulica de la **Universidad de Almería**.
+Repositorio técnico que compila los análisis experimentales y memorias de cálculo desarrollados para la asignatura de Ingeniería Fluidomecánica en la **Universidad de Almería**.
 
-Esta sección se centra en el estudio del comportamiento de fluidos incompresibles, el análisis dimensional y la caracterización de equipos de bombeo y generación de energía.
+El objetivo de este portafolio es demostrar la competencia en el **análisis de sistemas de fluidos**, la **caracterización de turbomáquinas** y la **aerodinámica experimental**, documentando los resultados con rigor científico mediante LaTeX.
 
-## 📄 Informes Disponibles
+## 📂 Contenido del Repositorio
 
-| Documento (PDF) | Descripción del Ensayo | Conceptos Clave |
+A continuación se detallan los ensayos realizados. Cada carpeta contiene la memoria técnica completa y los datos brutos del ensayo.
+
+| Carpeta | Temática Técnica | Conceptos Clave Analizados |
 | :--- | :--- | :--- |
-| **[1. Curvas Características - Bomba Centrífuga](./Nombre-De-Tu-Archivo.pdf)** | Obtención experimental de las curvas $H-Q$, Rendimiento ($\eta$) y Potencia. Análisis de cavitación y NPSH. | Triángulo de velocidades, Leyes de semejanza, ISO 9906. |
-| **[2. Pérdidas de Carga en Tuberías](./Nombre-De-Tu-Archivo-2.pdf)** | Estudio de pérdidas primarias (fricción) y secundarias (accesorios) en diferentes diámetros y rugosidades. | Diagrama de Moody, Ecuación de Darcy-Weisbach, Número de Reynolds. |
-| **[3. Banco de Turbina Pelton/Francis](./Nombre-De-Tu-Archivo-3.pdf)** | Análisis de una turbina de acción/reacción. Regulación de caudal y par motor. | Rendimiento hidráulico vs. mecánico, inyectores, rodete. |
+| **[`/01-Practica-1...`](./01-Practica-1-Banco-de-bombas-serie-paralelo)** | **Acoplamiento de Bombas:** Análisis de curvas características en configuraciones individuales, serie y paralelo. | Punto de funcionamiento, altura manométrica ($H$), caudal ($Q$) y leyes de asociación de bombas. |
+| **[`/02-Practica-2...`](./02-Practica-2-Bombas-centrifugas)** | **Curvas Características:** Ensayo completo de una bomba centrífuga unitaria. | Rendimiento global ($\eta$), Potencia al freno y curvas de iso-rendimiento. |
+| **[`/03-Practica-3...`](./03-Practica-3-Turbina-Pelton)** | **Turbinas de Acción:** Estudio de regulación y eficiencia en una turbina Pelton. | Triángulo de velocidades, regulación por inyector (aguja), par motor vs velocidad de giro. |
+| **[`/04-Practica-4...`](./04-Practica-4-Turbina-Francis)** | **Turbinas de Reacción:** Caracterización de una turbina Francis y su tubo de aspiración. | Distribuidor, grado de reacción, triángulo de salida y cavitación. |
+| **[`/05-Practica-5...`](./05-Practica-5-Tunel-de-viento)** | **Aerodinámica Experimental:** Ensayo de cuerpos sumergidos en flujo de aire. | Capa límite, Coeficiente de arrastre ($C_d$), Coeficiente de sustentación ($C_l$) y número de Reynolds. |
 
-*(Asegúrate de actualizar los enlaces `./Nombre...` con los nombres reales de tus PDFs)*
+## 🛠️ Metodología de Ingeniería
 
-## 📊 Metodología y Herramientas
+Para cada una de estas prácticas se ha seguido el siguiente flujo de trabajo profesional:
 
-Para la elaboración de estos documentos se ha seguido un flujo de trabajo de ingeniería profesional:
+1.  **Ensayo en Banco:** Toma de datos de presión (manómetros diferenciales), caudal (Venturi/Rotámetros), par torsor y velocidad angular (tacómetros).
+2.  **Procesamiento de Datos:**
+    * Cálculo de incertidumbres experimentales.
+    * Ajuste de curvas mediante regresión polinómica (Python/Excel).
+    * Comparativa: **Datos Teóricos vs. Datos Experimentales**.
+3.  **Documentación (Overleaf):** Redacción de informes técnicos estructurados bajo normativa académica, incluyendo bibliografía y notación científica estandarizada ($SI$).
 
-1.  **Adquisición de Datos:** Toma de lecturas en manómetros diferenciales, caudalímetros (Venturi/Rotámetro) y tacómetros digitales.
-2.  **Procesamiento:**
-    * Cálculo de errores e incertidumbres.
-    * Regresión lineal y polinómica para ajuste de curvas (usando Python/Excel).
-3.  **Redacción Técnica (LaTeX):**
-    * Uso de paquetes `siunitx` para el manejo riguroso de unidades del SI.
-    * Generación de tablas flotantes y referencias cruzadas automáticas.
-    * Bibliografía técnica gestionada con BibTeX.
+## 📊 Ejemplo de Resultados: Curvas Características
 
-## 📈 Ejemplo de Resultados
+> *Gráfica representativa obtenida durante el ensayo de Bombas Centrífugas, mostrando la relación entre Altura, Rendimiento y Potencia.*
 
-> **Curvas Características ($H$, $\eta$, $P$ vs $Q$):**
-> *Se demuestra la capacidad de contrastar los datos teóricos del fabricante con los datos reales obtenidos en banco de ensayo.*
+![Curvas H-Q](https://via.placeholder.com/600x350?text=Sube+tu+Grafica+H-Q+Aqui)
+*(Recomiendo subir aquí una captura de una de las gráficas de tus informes)*
 
-![Gráfica H-Q](https://via.placeholder.com/600x300?text=Inserte+aqui+grafica+Curvas+Bomba)
-*(Si tienes una captura de las gráficas de tus informes, ponla aquí, vende mucho visualmente)*
+## 📄 Licencia
 
-## 📚 Normativa Aplicada
-
-Los ensayos se han realizado bajo directrices y tolerancias basadas en estándares como:
-* **ISO 9906:** Ensayos de aceptación de prestaciones de bombas rotodinámicas.
-* **UNE-EN IEC 60193:** Turbinas hidráulicas, bombas de acumulación y turbinas-bomba.
+Este material es propiedad intelectual del autor y se presenta con fines de portafolio profesional.
+Desarrollado en la **Escuela Superior de Ingeniería - UAL**.
 
 ---
-[🔙 Volver al Portafolio Principal](../README.md)
+**Autor:** [Tu Nombre]
+*Ingeniero Mecánico*
