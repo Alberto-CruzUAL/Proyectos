@@ -8,7 +8,7 @@ El objetivo es el análisis completo del movimiento, fuerzas y equilibrado de un
 
 ## 🎯 Objetivo del Proyecto
 
-Analizar el comportamiento cinemático y dinámico de un **[NOMBRE DEL MECANISMO, EJ: Mecanismo de 4 Barras / Biela-Manivela / Leva]**.
+Analizar el comportamiento cinemático y dinámico de una pluma de un camnión.
 
 Se busca determinar:
 1.  **Posición, Velocidad y Aceleración** de todos los eslabones en función del tiempo.
@@ -17,13 +17,9 @@ Se busca determinar:
 
 ## 📐 Descripción del Mecanismo
 
-* **Grados de Libertad (GDL):** [Ej: 1 GDL].
-* **Tipo de Movimiento:** [Ej: Plano General].
-* **Entrada:** Motor con velocidad angular constante $\omega = [XX]$ rad/s.
-* **Cargas Externas:** [Ej: Fuerza de corte en el eslabón 3 / Par resistente].
+* **Grados de Libertad (GDL):1.
+* **Entrada:** Motor con velocidad angular constante 
 
-![Esquema Cinemático](https://via.placeholder.com/600x350?text=Sube+tu+Diagrama+Cinemático+Aqui)
-*(Aquí debes subir una imagen del esquema vectorial o diagrama de cuerpo libre de tu mecanismo)*
 
 ## 🛠️ Metodología de Análisis
 
@@ -39,18 +35,10 @@ Aplicación del **Principio de D'Alembert** o **Método de Newton-Euler**:
 
 ### 3. Simulación Computacional
 Validación de los cálculos manuales mediante software:
-* **Código:** [Python / MATLAB] para iterar el movimiento de 0° a 360°.
-* **Validación:** Comparación con [SolidWorks Motion / MSC Adams].
+* **Código:** [ MATLAB] para iterar el movimiento de 0° a 360°.
+* **Validación:** Comparación con [SolidWorks Motion ].
 
-## 📊 Resultados Obtenidos
 
-Se presentan las gráficas de evolución durante un ciclo completo:
-
-| Velocidad del Eslabón de Salida | Par Motor Requerido |
-| :---: | :---: |
-| ![Grafica Velocidad](https://via.placeholder.com/400x300?text=Grafica+Omega+vs+Tiempo) | ![Grafica Torque](https://via.placeholder.com/400x300?text=Grafica+Torque+vs+Angulo) |
-
-> **Conclusión:** Se observa que el par máximo ocurre a $\theta = [XX]^\circ$, coincidiendo con la máxima aceleración del eslabón conducido. Se propone añadir un **volante de inercia** para reducir las fluctuaciones de par en un [XX]%.
 
 ## 📄 Recursos
 
@@ -58,5 +46,4 @@ Se presentan las gráficas de evolución durante un ciclo completo:
 * **[Ver Código de Simulación](./codigo/)**
 
 ---
-**Autor:** [Tu Nombre]
-*Ingeniería Mecánica - UAL*
+**Autor:** Alberto Cruz García
