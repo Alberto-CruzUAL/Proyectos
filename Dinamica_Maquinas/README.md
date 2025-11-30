@@ -1,7 +1,7 @@
 # ⚙️ Análisis Dinámico y Cinemático de Mecanismos
 
 ![Estado](https://img.shields.io/badge/Estado-Finalizado-success)
-![Software](https://img.shields.io/badge/Simulación-MATLAB%20%7C%20Python%20%7C%20SolidWorks-blue)
+![Software](https://img.shields.io/badge/Simulación-MATLAB%20%7C%20Simulink%20%7C%20SolidWorks-blue)
 
 Proyecto de cálculo y simulación desarrollado para la asignatura de Dinámica de Máquinas.
 El objetivo es el análisis completo del movimiento, fuerzas y equilibrado de un sistema mecánico complejo bajo condiciones de operación reales.
