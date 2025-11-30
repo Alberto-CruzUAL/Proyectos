@@ -42,7 +42,7 @@ Validación de los cálculos manuales mediante software:
 
 ## 📄 Recursos
 
-* **[Ver Memoria de Cálculo (PDF)](Dinamica_Maquinas/memoria_TrabajoFinal_Dinamica_2025 (10).pdf)**
+* **[Ver Memoria de Cálculo (PDF)](./Dinamica_Maquinas/memoria_TrabajoFinal_Dinamica_2025 (10).pdf/)**
 * **[Ver Código de Simulación](./codigo/)**
 
 ---
