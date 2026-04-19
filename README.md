@@ -31,5 +31,5 @@ La elección de **LaTeX** sobre procesadores de texto convencionales refleja mi 
 
 
 ---
-**Autor:** [Tu Nombre]
+**Autor:** Alberto Cruz Garcia
 *Repositorio generado a partir de proyectos en Overleaf.*
